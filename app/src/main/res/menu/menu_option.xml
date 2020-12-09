@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/sua_stk"
+        android:id="@+id/menu_sua"/>
+    <item android:title="@string/gui_them_tien"
+        android:id="@+id/menu_gui_them"/>
+    <item android:title="@string/rut_mot_phan"
+        android:id="@+id/menu_rut"/>
+    <item android:title="@string/tat_toan"
+        android:id="@+id/menu_tat_toan"/>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.money_lover">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Lich_Su_Tat_ToanActivity"/>
+        <activity android:name=".Rut_Mot_PhanActivity" />
+        <activity android:name=".Gui_ThemActivity" />
+        <activity android:name=".Update_STKActivity" />
+        <activity android:name=".Them_Ngan_HangActivity" />
+        <activity android:name=".Them_STKActivity" />
+        <activity android:name=".STKActivity"/>
+        <activity android:name=".Dang_NhapActivity" />
+        <activity android:name=".Dang_KyActivity" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
